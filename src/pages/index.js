@@ -14,22 +14,20 @@ export default function Home() {
       </Head>
 
       <div className="container">
-        {/* Navbar */}
         <Navbar />
-
-        {/* Hero Slider */}
+        {/* Hero ADD SLIDER */}
         <Hero />
       </div>
 
       <div className="whitebg">
         <div className="container">
-          {/* About Me */}
+          {/* About Me PHOTOS, ANIMATIONS*/}
           <About />
 
-          {/* Projects */}
+          {/* Projects SLIDER */}
           {/* <Projects />  */}
 
-          {/* Contact */}
+          {/* Contact  */}
 
           {/* Footer */}
         </div>
