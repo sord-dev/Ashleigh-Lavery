@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.about {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.about .mainContent p {
+  letter-spacing: .6px;
+  line-height: 140%;
+  max-width: 550px;
+}
+
+.about .mainContent span {
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+
+.about .rightPicture img {
+  max-width: 500px;
+}
+
+.imagePair {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .about .rightPicture img {
+    max-width: 350px;
+  }
+
+  .imagePair {
+    flex-direction: column;
+    gap: 1em;
+  }
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.navbar .title {
+  font-family: "Satisfy";
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+  height: min-content;
+}
+
+.nav a {
+  opacity: 0.7;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-weight: 500;
+  font-size: 1.075em;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    font-size: 0.8em;
+  }
+
+  .nav {
+    font-size: 1.1em;
+  }
+}
