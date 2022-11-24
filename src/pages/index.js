@@ -23,15 +23,17 @@ export default function Home() {
         <div className="container">
           {/* About Me PHOTOS, ANIMATIONS*/}
           <About />
-
-          {/* Projects SLIDER */}
-          {/* <Projects />  */}
-
-          {/* Contact  */}
-
-          {/* Footer */}
         </div>
       </div>
+      
+      {/* Projects SLIDER */}
+      <div className="container">
+        <Projects />
+      </div>
+
+      {/* Contact  */}
+
+      {/* Footer */}
     </div>
   );
 }
