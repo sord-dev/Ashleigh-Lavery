@@ -47,7 +47,7 @@ export function Projects({ projects }) {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -59,6 +59,12 @@ export function Projects({ projects }) {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],
