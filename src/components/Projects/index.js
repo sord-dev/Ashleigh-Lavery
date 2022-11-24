@@ -56,13 +56,13 @@ export function Projects({ projects }) {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 680,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 400,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
         },
