@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
-
+// create tamal-sen looking projects component filtering by topic
 export function Projects({ projects }) {
   const [projectsList, setProjectsList] = useState(projects);
   const settings = {

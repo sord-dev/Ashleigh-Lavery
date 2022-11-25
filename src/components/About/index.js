@@ -25,7 +25,7 @@ export function About() {
 
         <div className={styles.imagePair}>
           <img
-            src="/placeholders/small-placeholder.png"
+            src="/about/img-2.jpg"
             alt="placeholder image"
           />
           <img
@@ -36,7 +36,7 @@ export function About() {
       </div>
       <div className={styles.rightPicture}>
         <img
-          src="/placeholders/medium-placeholder.png"
+          src="/about/img-1.jpg"
           alt="A photo of Ashleigh"
         />
       </div>

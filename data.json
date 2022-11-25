@@ -3,31 +3,31 @@
     {
       "id": 0,
       "name": "catagory 1",
-      "image": "/placeholders/small-placeholder.png",
+      "image": "/projects/img-1.jpg",
       "link": "#"
     },
     {
       "id": 1,
       "name": "catagory 2",
-      "image": "/placeholders/small-placeholder.png",
+      "image": "/projects/img-2.png",
       "link": "#"
     },
     {
       "id": 2,
       "name": "catagory 3",
-      "image": "/placeholders/small-placeholder.png",
+      "image": "/projects/img-3.jpg",
       "link": "#"
     },
     {
       "id": 3,
       "name": "catagory 4",
-      "image": "/placeholders/small-placeholder.png",
+      "image": "/projects/img-4.jpg",
       "link": "#"
     },
     {
       "id": 4,
       "name": "catagory 5",
-      "image": "/placeholders/small-placeholder.png",
+      "image": "/projects/img-5.jpg",
       "link": "#"
     }
   ]

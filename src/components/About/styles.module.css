@@ -14,8 +14,22 @@
 }
 
 
-.about .rightPicture img {
+.about .imagePair img{
+  max-width: 255px;
+}
+
+.about .rightPicture {
   max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+
+.about img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .imagePair {
