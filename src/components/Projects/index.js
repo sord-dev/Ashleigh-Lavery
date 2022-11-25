@@ -1,41 +1,10 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-import Slider from "react-slick";
 // create tamal-sen looking projects component filtering by topic
 export function Projects({ projects }) {
   const [projectsList, setProjectsList] = useState(projects);
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 680,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+  
   return (
     <div className={styles.projects} id="projects">
       <span>WHAT I DO</span>
@@ -47,11 +16,11 @@ export function Projects({ projects }) {
         Architecto quae adipisci incidunt?
       </p>
 
-      <Slider className={styles.slider} {...settings}>
+      <div className={styles.photoGallary}>
         {projectsList.map((project) => (
           <Project key={project.id} {...{ project }} />
         ))}
-      </Slider>
+      </div>
     </div>
   );
 }

@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Projects IMAGES */}
       <div className="container">
-        <Projects projects={data.TEST_PROJECTS} />
+        <Projects projects={data.images} />
 
         {/* Contact FORM, SUBMIT */}
 
