@@ -6,41 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-const TEST_PROJECTS = [
-  {
-    id: 0,
-    name: "catagory 1",
-    image: "/placeholders/small-placeholder.png",
-    link: "#",
-  },
-  {
-    id: 1,
-    name: "catagory 2",
-    image: "/placeholders/small-placeholder.png",
-    link: "#",
-  },
-  {
-    id: 2,
-    name: "catagory 3",
-    image: "/placeholders/small-placeholder.png",
-    link: "#",
-  },
-  {
-    id: 3,
-    name: "catagory 4",
-    image: "/placeholders/small-placeholder.png",
-    link: "#",
-  },
-  {
-    id: 4,
-    name: "catagory 5",
-    image: "/placeholders/small-placeholder.png",
-    link: "#",
-  },
-];
-
 export function Projects({ projects }) {
-  const [projectsList, setProjectsList] = useState(TEST_PROJECTS);
+  const [projectsList, setProjectsList] = useState(projects);
   const settings = {
     dots: true,
     arrows: false,

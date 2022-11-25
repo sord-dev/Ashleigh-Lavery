@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { About, Hero, Navbar, Projects } from "../components";
+import { About, Footer, Hero, Navbar, Projects } from "../components";
+
+import data from "../../data.json";
 
 export default function Home() {
   return (
@@ -14,8 +16,9 @@ export default function Home() {
       </Head>
 
       <div className="container">
+        {/* Navbar MOBILE MENU, LOGO?, FOLLOW ON SCROLL */}
         <Navbar />
-        {/* Hero ADD SLIDER */}
+        {/* Hero ADD SLIDER, IMAGES */}
         <Hero />
       </div>
 
@@ -25,15 +28,16 @@ export default function Home() {
           <About />
         </div>
       </div>
-      
-      {/* Projects SLIDER */}
+
+      {/* Projects IMAGES */}
       <div className="container">
-        <Projects />
+        <Projects projects={data.TEST_PROJECTS} />
+
+        {/* Contact FORM, SUBMIT */}
+
+        {/* Footer CONTACT LINKS, MADE BY */}
+        <Footer />
       </div>
-
-      {/* Contact  */}
-
-      {/* Footer */}
     </div>
   );
 }
