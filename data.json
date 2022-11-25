@@ -2,27 +2,47 @@
   "images": [
     {
       "id": 0,
-      "image": "/projects/img-1.jpg",
+      "image": "/projects/editorial-1.jpg",
       "catagory": "#"
     },
     {
       "id": 1,
-      "image": "/projects/img-2.png",
+      "image": "/projects/editorial-2.jpg",
       "catagory": "#"
     },
     {
       "id": 2,
-      "image": "/projects/img-3.jpg",
+      "image": "/projects/editorial-3.jpg",
       "catagory": "#"
     },
     {
       "id": 3,
-      "image": "/projects/img-4.jpg",
+      "image": "/projects/editorial-4.jpg",
       "catagory": "#"
     },
     {
       "id": 4,
-      "image": "/projects/img-5.jpg",
+      "image": "/projects/editorial-5.jpg",
+      "catagory": "#"
+    },
+    {
+      "id": 5,
+      "image": "/projects/editorial-6.jpg",
+      "catagory": "#"
+    },
+    {
+      "id": 6,
+      "image": "/projects/editorial-7.jpg",
+      "catagory": "#"
+    },
+    {
+      "id": 7,
+      "image": "/projects/editorial-8.png",
+      "catagory": "#"
+    },
+    {
+      "id": 8,
+      "image": "/projects/editorial-9.jpg",
       "catagory": "#"
     }
   ]
