@@ -15,25 +15,20 @@ export default function Home() {
         <link rel="icon" href="/lipstick.ico" />
       </Head>
 
-      <div className="container">
-        
-        {/* Hero ADD SLIDER, IMAGES */}
-        <Hero />
-      </div>
+      {/* Hero - BACKGROUND IMAGES, LOAD IN ANIMATIONS */}
+      <Hero />
 
       <div className="whitebg">
         <div className="container">
-          {/* About Me PHOTOS, ANIMATIONS*/}
+          {/* About Me - ANIMATIONS */}
           <About />
         </div>
       </div>
 
-      {/* Projects IMAGES */}
+      {/* Projects - IMAGES LIST, SORT BY CATAGORY, HOST IMAGES/USE URLS!!! */}
       <div className="container">
         <Projects projects={data.images} />
-
-        {/* Contact FORM, SUBMIT */}
-
+        {/* Contact - LINK LIST? */}
       </div>
     </div>
   );
