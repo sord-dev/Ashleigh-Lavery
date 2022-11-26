@@ -2,48 +2,35 @@
   "images": [
     {
       "id": 0,
-      "image": "/projects/editorial-1.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/zBTMtDK4/editorial-1.jpg",
+      "catagory": "editorial"
     },
     {
       "id": 1,
-      "image": "/projects/editorial-2.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/qvdNSjPY/editorial-2.jpg",
+      "catagory": "editorial"
     },
     {
       "id": 2,
-      "image": "/projects/editorial-3.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/8C6nckKs/editorial-3.jpg",
+      "catagory": "editorial"
     },
     {
       "id": 3,
-      "image": "/projects/editorial-4.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/NMtb062P/editorial-4.jpg",
+      "catagory": "editorial"
     },
     {
       "id": 4,
-      "image": "/projects/editorial-5.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/bJ0C0Cjh/editorial-5.jpg",
+      "catagory": "editorial"
     },
     {
       "id": 5,
-      "image": "/projects/editorial-6.jpg",
-      "catagory": "#"
-    },
-    {
-      "id": 6,
-      "image": "/projects/editorial-7.jpg",
-      "catagory": "#"
-    },
-    {
-      "id": 7,
-      "image": "/projects/editorial-8.png",
-      "catagory": "#"
-    },
-    {
-      "id": 8,
-      "image": "/projects/editorial-9.jpg",
-      "catagory": "#"
+      "image": "https://i.postimg.cc/bJfVtXWg/editorial-6.jpg",
+      "catagory": "editorial"
     }
-  ]
+  ],
+
+  "catagories": ["Editorial", "Film/TV", "Prom/Occasion", "Corprate", "Lingerie"]
 }

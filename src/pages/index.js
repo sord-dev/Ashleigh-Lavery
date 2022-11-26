@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Projects - IMAGES LIST, SORT BY CATAGORY, HOST IMAGES/USE URLS!!! */}
       <div className="container">
-        <Projects projects={data.images} />
+        <Projects projects={data.images} catagories={data.catagories} />
         {/* Contact - LINK LIST? */}
       </div>
     </div>
