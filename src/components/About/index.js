@@ -24,21 +24,12 @@ export function About() {
         </p>
 
         <div className={styles.imagePair}>
-          <img
-            src="/about/img-2.jpg"
-            alt="placeholder image"
-          />
-          <img
-            src="/placeholders/small-placeholder.png"
-            alt="placeholder image"
-          />
+          <img src="/about/img-2.jpg" alt="A photo of Ashleigh" />
+          <img src="/about/img-3.jpg" alt="A photo of Ashleigh" />
         </div>
       </div>
       <div className={styles.rightPicture}>
-        <img
-          src="/about/img-1.jpg"
-          alt="A photo of Ashleigh"
-        />
+        <img src="/about/img-1.jpg" alt="A photo of Ashleigh" />
       </div>
     </div>
   );

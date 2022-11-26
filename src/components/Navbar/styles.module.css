@@ -2,10 +2,20 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
-  margin-top: 5px;
+  padding: 1em;
   align-items: center;
+  transition: all 0.5s ease-in;
+}
+
+.stick {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: antiquewhite;
+  z-index: 100;
+  opacity: .9;
 }
 
 .navbar .title {
@@ -14,15 +24,17 @@
 
 .nav {
   display: flex;
-  gap: 1em;
+  gap: 4em;
   height: min-content;
+  margin: 0 auto;
 }
 
 .nav a {
   opacity: 0.7;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   font-weight: 500;
-  font-size: 1.075em;
+  font-size: 1.2em;
+  text-transform: lowercase;
 }
 
 .nav a:hover {
@@ -37,5 +49,6 @@
 
   .nav {
     font-size: 1.1em;
+    gap: 3em;
   }
 }

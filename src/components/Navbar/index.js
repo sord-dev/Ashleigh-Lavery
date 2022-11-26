@@ -1,16 +1,19 @@
 import Link from "next/link";
 import React from "react";
+import { useScroll } from "../../lib/hooks/useScroll";
 import styles from "./styles.module.css";
 
 export function Navbar() {
+  const scrolled = useScroll();
+
   return (
-    <div className={styles.navbar}>
-      <h1 className={styles.title}>Ashleigh Lavery</h1>
+    <div className={`${styles.navbar} ${scrolled ? styles.stick : ''}`}>
+      {/* <h1 className={styles.title}>Ashleigh Lavery</h1> */}
       <nav className={styles.nav}>
-        <Link href="/">HOME</Link>
-        <Link href="#about">ABOUT</Link>
-        <Link href="#projects">WORK</Link>
-        <Link href="#contact">CONTACT</Link>
+        <Link href="/">Home</Link>
+        <Link href="#about">About</Link>
+        <Link href="#projects">Work</Link>
+        <Link href="#contact">Contact</Link>
       </nav>
     </div>
   );
