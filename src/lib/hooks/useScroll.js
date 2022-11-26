@@ -4,14 +4,20 @@ export function useScroll() {
   const [hasScrolled, sethasScrolled] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const checkScroll = () => {
       if (window.scrollY > 50) {
         if (hasScrolled) return;
         sethasScrolled(true);
       } else {
         sethasScrolled(false);
       }
-    });
+    };
+
+    window.addEventListener("scroll", checkScroll);
+
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
   }, [hasScrolled]);
 
   return hasScrolled;
