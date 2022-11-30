@@ -3,7 +3,7 @@ import { About, Hero, Projects } from "../components";
 
 import data from "../../data.json";
 
-export default function Home() {
+export default function Home({ catagories, projects }) {
   return (
     <div>
       <Head>
@@ -20,16 +20,26 @@ export default function Home() {
 
       <div className="whitebg">
         <div className="container">
-          {/* About Me - ANIMATIONS */}
+          {/* About Me - ANIMATIONS, HOST IMAGES */}
           <About />
         </div>
       </div>
 
-      {/* Projects - IMAGES LIST, SORT BY CATAGORY, HOST IMAGES/USE URLS!!! */}
+      {/* Projects - HOST OTHER IMAGES */}
       <div className="container">
-        <Projects projects={data.images} catagories={data.catagories} />
+        <Projects {...{ projects, catagories }} />
         {/* Contact - LINK LIST? */}
       </div>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const { images, catagories } = data;
+  return {
+    props: {
+      catagories,
+      projects: images,
+    },
+  };
 }

@@ -7,13 +7,14 @@
   padding: 1em;
   align-items: center;
   transition: all 0.5s ease-in;
+  background-color: antiquewhite;
 }
 
 .stick {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: antiquewhite;
+
   z-index: 100;
   opacity: .9;
 }
