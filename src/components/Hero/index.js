@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 export function Hero() {
   return (
     <div className={styles.hero}>
-      <img className={styles.bg} src="/collage.png" alt="collage" />
+      <img className={styles.bg} src="/collage.jpg" alt="collage" />
 
       <div className={`${styles.textContent} container`}>
         <h1>Ashleigh Lavery</h1>

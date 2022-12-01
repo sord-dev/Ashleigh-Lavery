@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.about h3 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
 .about .mainContent span {
   letter-spacing: 1px;
   font-weight: 300;
