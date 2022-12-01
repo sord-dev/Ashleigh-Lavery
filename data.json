@@ -29,8 +29,60 @@
       "id": 5,
       "image": "https://i.postimg.cc/bJfVtXWg/editorial-6.jpg",
       "catagory": "editorial"
+    },
+    {
+      "id": 6,
+      "image": "https://i.postimg.cc/6qVjr81c/corprate-1.jpg",
+      "catagory": "corprate"
+    },
+    {
+      "id": 7,
+      "image": "https://i.postimg.cc/4NZFJ1mS/corprate-2.jpg",
+      "catagory": "corprate"
+    },
+    {
+      "id": 8,
+      "image": "https://i.postimg.cc/ydHrkhLx/film-1.jpg",
+      "catagory": "film/tv"
+    },
+   
+    {
+      "id": 10,
+      "image": "https://i.postimg.cc/4xj0TRtz/film-3.jpg",
+      "catagory": "film/tv"
+    },
+    {
+      "id": 11,
+      "image": "https://i.postimg.cc/qqQYftXR/film-4.png",
+      "catagory": "film/tv"
+    },
+    {
+      "id": 12,
+      "image": "https://i.postimg.cc/T1ykskwk/prom-1.jpg",
+      "catagory": "prom/occasion"
+    },
+    {
+      "id": 13,
+      "image": "https://i.postimg.cc/XJ1HQMVG/prom-2.jpg",
+      "catagory": "prom/occasion"
+    },
+    {
+      "id": 14,
+      "image": "https://i.postimg.cc/rsvh2SRq/prom-3.jpg",
+      "catagory": "prom/occasion"
+    },
+    {
+      "id": 15,
+      "image": "https://i.postimg.cc/VkP77WcR/prom-4.png",
+      "catagory": "prom/occasion"
+    },
+    {
+      "id": 16,
+      "image": "https://i.postimg.cc/76Zt3Pyr/prom-5.png",
+      "catagory": "prom/occasion"
     }
+    
   ],
 
-  "catagories": ["Editorial", "Film/TV", "Prom/Occasion", "Corprate", "Lingerie"]
+  "catagories": ["Editorial", "Film/TV", "Prom/Occasion", "Corprate"]
 }
