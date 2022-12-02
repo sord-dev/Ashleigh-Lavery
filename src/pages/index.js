@@ -15,12 +15,10 @@ export default function Home({ catagories, projects }) {
         <link rel="icon" href="/lipstick.ico" />
       </Head>
 
-      {/* Hero - LOAD IN ANIMATIONS */}
       <Hero />
 
       <div className="whitebg">
         <div className="container">
-          {/* About Me - ANIMATIONS */}
           <About />
         </div>
       </div>

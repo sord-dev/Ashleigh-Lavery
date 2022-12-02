@@ -3,11 +3,23 @@ import React from "react";
 import styles from "./styles.module.css";
 import { useScroll } from "../../lib/hooks/useScroll";
 
+import { motion } from "framer-motion";
+
 export function Navbar() {
   const scrolled = useScroll();
 
+  const variants = {
+    initial: { opacity: .9 },
+    animate: {
+      opacity: 1,
+      transition: {
+        delay: 0.1
+      }
+    }
+  };
+
   return (
-    <div className={`${styles.navbar} ${scrolled ? styles.stick : ""}`}>
+    <motion.div  {...{ variants }} animate={scrolled ? 'initial' : 'animate' } className={`${styles.navbar} ${scrolled ? styles.stick : ""}`}>
       <div className={`${styles.navbarContent} container`}>
       {/* Logo - REPLACE WITH IMAGE */}
         <h1 className={styles.title}>Ashleigh Lavery</h1>
@@ -18,6 +30,6 @@ export function Navbar() {
           <Link href="mailto:ashleighlavery111@gmail.com" target="_blank" rel="noopener noreferrer" >Contact</Link>
         </nav>
       </div>
-    </div>
+    </motion.div>
   );
 }
