@@ -24,7 +24,6 @@ export default function Home({ catagories, projects }) {
       </div>
 
       <div className="container">
-        {/* Projects - ANIMATIONS */}
         <Projects {...{ projects, catagories }} />
       </div>
     </div>
