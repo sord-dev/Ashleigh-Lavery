@@ -1,25 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./styles.module.css";
 
 import { motion } from "framer-motion";
+import { CatagoryList } from "./catagoryList";
+import { ProjectList } from "./projectList";
+import { useSortProjects } from "../../lib/hooks/useSortProjects";
 
 export function Projects({ projects, catagories }) {
-  const [projectsList, setProjectsList] = useState([]);
-  const [activeCatagory, setActiveCatagory] = useState("editorial");
-
-  const changeImages = (catagory) => {
-    if (!catagories.includes(catagory)) return;
-    setActiveCatagory(catagory.toLowerCase());
-  };
-
-  // rendering the list based on the active catagory
-  useEffect(() => {
-    setProjectsList(
-      projects.filter(
-        (project) => project.catagory === activeCatagory.toLowerCase()
-      )
-    );
-  }, [projects, activeCatagory]);
+  const { sortedProjects, catagory, allCatagories, changeActiveCatagory } =
+    useSortProjects({
+      projects,
+      catagories,
+      defaultCatagory: "editorial",
+    });
 
   return (
     <div className={styles.projects} id="projects">
@@ -32,32 +25,19 @@ export function Projects({ projects, catagories }) {
         Architecto quae adipisci incidunt?
       </p>
 
-      <div className={styles.photoCatagoryList}>
-        {catagories?.map((catagory, index) => {
-          const currCat = catagory.toLowerCase();
-          return (
-            <button
-              key={`catagory-btn-${index}`}
-              onClick={() => changeImages(catagory)}
-              className={currCat === activeCatagory ? styles.active : null}
-            >
-              {catagory}
-            </button>
-          );
-        })}
-      </div>
+      <CatagoryList
+        {...{
+          onClick: changeActiveCatagory,
+          catagories: allCatagories,
+          activeCatagory: catagory,
+        }}
+      />
 
-      <div className={styles.photoGallary}>
-        {projectsList.length ? (
-          projectsList
-            .filter((e, index) => index < 6)
-            .map((project, index) => (
-              <Project key={project.id} {...{ project, index }} />
-            ))
-        ) : (
-          <ErrorPage />
-        )}
-      </div>
+      <ProjectList
+        ErrorPage={ErrorPage}
+        Project={Project}
+        projects={sortedProjects}
+      />
     </div>
   );
 }

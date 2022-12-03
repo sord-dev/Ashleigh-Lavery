@@ -8,10 +8,7 @@ export default function Home({ catagories, projects }) {
     <div>
       <Head>
         <title>Ashleigh Lavery | Makeup Artist</title>
-        <meta
-          name="description"
-          content="Ashleigh Lavery - Makeup Artistry"
-        />
+        <meta name="description" content="Ashleigh Lavery - Makeup Artistry" />
         <link rel="icon" href="/lipstick.ico" />
       </Head>
 
