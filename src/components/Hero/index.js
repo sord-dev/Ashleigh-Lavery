@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <div className={styles.hero}>
+    <section className={styles.hero}>
       <img className={styles.bg} src="/collage.jpg" alt="collage" />
 
       <motion.div
@@ -26,6 +26,6 @@ export function Hero() {
           <button>My Work</button>
         </Link>
       </motion.div>
-    </div>
+    </section>
   );
 }

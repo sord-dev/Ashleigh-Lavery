@@ -31,6 +31,8 @@
 .navbar .title {
   font-family: "Satisfy";
   margin: 0;
+  max-width: 155px;
+  
 }
 
 .nav {
@@ -57,7 +59,7 @@
     font-size: 0.8em;
   }
 
-  .navbar h1 {
+  .navbar .title {
     display: none;
   }
 

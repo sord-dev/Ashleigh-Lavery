@@ -9,25 +9,34 @@ export function Navbar() {
   const scrolled = useScroll();
 
   const variants = {
-    initial: { opacity: .9 },
+    initial: { opacity: 0.9 },
     animate: {
       opacity: 1,
       transition: {
-        delay: 0.1
-      }
-    }
+        delay: 0.1,
+      },
+    },
   };
 
   return (
-    <motion.div  {...{ variants }} animate={scrolled ? 'initial' : 'animate' } className={`${styles.navbar} ${scrolled ? styles.stick : ""}`}>
+    <motion.div
+      {...{ variants }}
+      animate={scrolled ? "initial" : "animate"}
+      className={`${styles.navbar} ${scrolled ? styles.stick : ""}`}
+    >
       <div className={`${styles.navbarContent} container`}>
-      {/* Logo - REPLACE WITH IMAGE */}
-        <h1 className={styles.title}>Ashleigh Lavery</h1>
+        <img className={styles.title} src={'/logo.png'}  />
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
           <Link href="#about">About</Link>
           <Link href="#projects">Work</Link>
-          <Link href="mailto:ashleighlavery111@gmail.com" target="_blank" rel="noopener noreferrer" >Contact</Link>
+          <Link
+            href="mailto:ashleighlavery111@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </Link>
         </nav>
       </div>
     </motion.div>

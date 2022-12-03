@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function About() {
   return (
-    <div className={styles.about} id="about">
+    <section className={styles.about} id="about">
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -14,7 +14,7 @@ export function About() {
         className={styles.mainContent}
       >
         <span>MAKEUP ARTIST</span>
-        <h3>Ashleigh Lavery</h3>
+        <h2>Ashleigh Lavery</h2>
         <p>
           Ashleigh is a fully qualified makeup artist based in South London, she
           specialises in Fashion Editorial Makeup, Proms, Bridal and Beauty
@@ -44,6 +44,6 @@ export function About() {
       >
         <img src="/about/img-1.jpg" alt="A photo of Ashleigh" />
       </motion.div>
-    </div>
+    </section>
   );
 }

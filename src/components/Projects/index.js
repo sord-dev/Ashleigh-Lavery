@@ -15,9 +15,9 @@ export function Projects({ projects, catagories }) {
     });
 
   return (
-    <div className={styles.projects} id="projects">
+    <section className={styles.projects} id="projects">
       <span>WHAT I DO</span>
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem,
         officiis cumque aliquam quam sequi reprehenderit delectus adipisci,
@@ -34,11 +34,13 @@ export function Projects({ projects, catagories }) {
       />
 
       <ProjectList
-        ErrorPage={ErrorPage}
-        Project={Project}
-        projects={sortedProjects}
+        {...{
+          ErrorPage,
+          Project,
+          projects: sortedProjects,
+        }}
       />
-    </div>
+    </section>
   );
 }
 
@@ -50,7 +52,11 @@ const Project = ({ project, index }) => {
       transition={{ delay: index * 0.1 }}
       className={styles.project}
     >
-      <img src={project.image} alt={project.name} />
+      <img
+        src={project.image}
+        alt={`${project.catagory} image number ${project.id + 1}`}
+        title={project.catagory}
+      />
     </motion.div>
   );
 };

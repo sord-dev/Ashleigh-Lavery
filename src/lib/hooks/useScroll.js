@@ -5,7 +5,7 @@ export function useScroll() {
 
   useEffect(() => {
     const checkScroll = () => {
-      if (window.scrollY > 75) {
+      if (window.scrollY > 90) {
         if (hasScrolled) return;
         sethasScrolled(true);
       } else {

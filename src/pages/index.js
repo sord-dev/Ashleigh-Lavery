@@ -14,15 +14,17 @@ export default function Home({ catagories, projects }) {
 
       <Hero />
 
-      <div className="whitebg">
-        <div className="container">
-          <About />
+      <main>
+        <div className="whitebg">
+          <div className="container">
+            <About />
+          </div>
         </div>
-      </div>
 
-      <div className="container">
-        <Projects {...{ projects, catagories }} />
-      </div>
+        <div className="container">
+          <Projects {...{ projects, catagories }} />
+        </div>
+      </main>
     </div>
   );
 }
