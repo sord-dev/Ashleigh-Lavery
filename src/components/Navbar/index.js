@@ -25,7 +25,7 @@ export function Navbar() {
       className={`${styles.navbar} ${scrolled ? styles.stick : ""}`}
     >
       <div className={`${styles.navbarContent} container`}>
-        <img className={styles.title} src={'/logo.png'}  />
+        <img className={styles.title} src={'/logo.png'} alt={'Ashleigh Artistry Logo'}  />
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
           <Link href="#about">About</Link>
