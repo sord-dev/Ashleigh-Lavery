@@ -10,7 +10,7 @@ export default function Home({ catagories, projects }) {
         <title>Ashleigh Lavery | Makeup Artist</title>
         <meta
           name="description"
-          content="WIP - will add metadata when provided"
+          content="Ashleigh Lavery - Makeup Artistry"
         />
         <link rel="icon" href="/lipstick.ico" />
       </Head>

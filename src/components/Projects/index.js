@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export function Projects({ projects, catagories }) {
   const [projectsList, setProjectsList] = useState([]);
@@ -51,7 +51,9 @@ export function Projects({ projects, catagories }) {
         {projectsList.length ? (
           projectsList
             .filter((e, index) => index < 6)
-            .map((project, index) => <Project key={project.id} {...{ project, index }} />)
+            .map((project, index) => (
+              <Project key={project.id} {...{ project, index }} />
+            ))
         ) : (
           <ErrorPage />
         )}
@@ -62,7 +64,12 @@ export function Projects({ projects, catagories }) {
 
 const Project = ({ project, index }) => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: index * 0.1}} className={styles.project}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: index * 0.1 }}
+      className={styles.project}
+    >
       <img src={project.image} alt={project.name} />
     </motion.div>
   );

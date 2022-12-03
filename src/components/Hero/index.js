@@ -13,6 +13,7 @@ export function Hero() {
         initial={{ scale: 0.8, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1 }}
+        viewport={{ once: true }}
         className={`${styles.textContent} container`}
       >
         <h1>Ashleigh Lavery</h1>
