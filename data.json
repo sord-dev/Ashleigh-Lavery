@@ -33,27 +33,27 @@
     {
       "id": 6,
       "image": "https://i.postimg.cc/6qVjr81c/corprate-1.jpg",
-      "catagory": "corprate"
+      "catagory": "corporate"
     },
     {
       "id": 7,
       "image": "https://i.postimg.cc/4NZFJ1mS/corprate-2.jpg",
-      "catagory": "corprate"
+      "catagory": "corporate"
     },
     {
       "id": 8,
-      "image": "https://i.postimg.cc/ydHrkhLx/film-1.jpg",
+      "image": "https://i.postimg.cc/667hTyFy/film-5.jpg",
       "catagory": "film/tv"
     },
    
     {
       "id": 10,
-      "image": "https://i.postimg.cc/4xj0TRtz/film-3.jpg",
+      "image": "https://i.postimg.cc/RV2zGyvC/film-7.jpg",
       "catagory": "film/tv"
     },
     {
       "id": 11,
-      "image": "https://i.postimg.cc/qqQYftXR/film-4.png",
+      "image": "https://i.postimg.cc/tCsj3pQm/film-8.jpg",
       "catagory": "film/tv"
     },
     {
@@ -80,9 +80,24 @@
       "id": 16,
       "image": "https://i.postimg.cc/76Zt3Pyr/prom-5.png",
       "catagory": "prom/occasion"
+    },
+    {
+      "id": 17,
+      "image": "https://i.postimg.cc/ydHrkhLx/film-1.jpg",
+      "catagory": "sfx"
+    },
+    {
+      "id": 18,
+      "image": "https://i.postimg.cc/4xj0TRtz/film-3.jpg",
+      "catagory": "sfx"
+    },
+    {
+      "id": 19,
+      "image": "https://i.postimg.cc/qqQYftXR/film-4.png",
+      "catagory": "sfx"
     }
     
   ],
 
-  "catagories": ["Editorial", "Film/TV", "Prom/Occasion", "Corprate"]
+  "catagories": ["Editorial", "Film/TV", "Prom/Occasion", "Corporate", "SFX"]
 }
