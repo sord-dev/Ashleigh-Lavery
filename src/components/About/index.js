@@ -31,7 +31,7 @@ export function About() {
 
         <div className={styles.imagePair}>
           <img src="/about/img-2.jpg" alt="A photo of Ashleigh" />
-          <img src="/about/img-3.jpg" alt="A photo of Ashleigh" />
+          <img src="https://i.postimg.cc/RV2zGyvC/film-7.jpg" alt="A photo of Ashleigh" />
         </div>
       </motion.div>
 
