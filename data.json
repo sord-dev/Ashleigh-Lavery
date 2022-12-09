@@ -45,7 +45,7 @@
       "image": "https://i.postimg.cc/667hTyFy/film-5.jpg",
       "catagory": "film/tv"
     },
-   
+
     {
       "id": 10,
       "image": "https://i.postimg.cc/RV2zGyvC/film-7.jpg",
@@ -96,8 +96,28 @@
       "image": "https://i.postimg.cc/qqQYftXR/film-4.png",
       "catagory": "sfx"
     }
-    
   ],
 
-  "catagories": ["Editorial", "SFX", "Prom/Occasion", "Corporate", "Film/TV"]
+  "catagories": [
+    {
+      "name": "Editorial",
+      "description": "My area of specialism is fashion/editorial makeup, I have experience working with photographers and fashion stylists on shoots where im able to bring concepts from fashion mood boards into reality! I’ve also recently received my first publication from photovouge while working on a collaborative fashion photoshoot."
+    },
+    {
+      "name": "Film/TV",
+      "description": "I have worked as trainee on an award winning tv show “psyched” assisting on many tasks, such as hairstyling, tv makeup, sfx, even helping in the costume department. I’m very proud to have been apart of the production as it’s won 26 awards, and also gained me an IMDB credit in the makeup department."
+    },
+    {
+      "name": "SFX",
+      "description": ""
+    },
+    {
+      "name": "Prom/Occasion",
+      "description": ""
+    },
+    {
+      "name": "Corporate",
+      "description": ""
+    }
+  ]
 }

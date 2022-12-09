@@ -7,23 +7,25 @@ import { ProjectList } from "./projectList";
 import { useSortProjects } from "../../lib/hooks/useSortProjects";
 
 export function Projects({ projects, catagories }) {
-  const { sortedProjects, catagory, allCatagories, changeActiveCatagory } =
-    useSortProjects({
-      projects,
-      catagories,
-      defaultCatagory: "editorial",
-    });
+  const {
+    sortedProjects,
+    catagory,
+    description,
+    allCatagories,
+    changeActiveCatagory,
+  } = useSortProjects({
+    projects,
+    catagories,
+    defaultCatagory: "editorial",
+    defaultDescription:
+      "My area of specialism is fashion/editorial makeup, I have experience working with photographers and fashion stylists on shoots where im able to bring concepts from fashion mood boards into reality! I’ve also recently received my first publication from photovouge while working on a collaborative fashion photoshoot.",
+  });
 
   return (
     <section className={styles.projects} id="projects">
       <span>WHAT I DO</span>
       <h2>Projects</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem,
-        officiis cumque aliquam quam sequi reprehenderit delectus adipisci,
-        velit nisi reiciendis voluptatibus similique, saepe possimus doloremque!
-        Architecto quae adipisci incidunt?
-      </p>
+      <p>{description}</p>
 
       <CatagoryList
         {...{

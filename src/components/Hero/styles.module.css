@@ -36,6 +36,7 @@
 }
 
 .hero .textContent p {
+  font-size: 1.3em;
   margin: 0;
   opacity: 0.9;
 }

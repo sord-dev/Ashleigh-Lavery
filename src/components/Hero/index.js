@@ -17,10 +17,7 @@ export function Hero() {
         className={`${styles.textContent} container`}
       >
         <h1>Ashleigh Lavery</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima porro
-          odio, ea vitae facilis unde dignissimos.
-        </p>
+        <p>Hair and Makeup Artistry</p>
 
         <Link href={"#projects"}>
           <button>My Work</button>
