@@ -95,6 +95,16 @@
       "id": 19,
       "image": "https://i.postimg.cc/qqQYftXR/film-4.png",
       "catagory": "sfx"
+    },
+    {
+      "id": 20,
+      "image": "https://i.postimg.cc/zBFj0DWq/publication-1.jpg",
+      "catagory": "publications"
+    },
+    {
+      "id": 21,
+      "image": "https://i.postimg.cc/Hkb7QZbg/editorial-11.jpg",
+      "catagory": "editorial"
     }
   ],
 
@@ -105,7 +115,7 @@
     },
     {
       "name": "Film/TV",
-      "description": "I have worked as trainee on an award winning tv show “psyched” assisting on many tasks, such as hairstyling, tv makeup, sfx, even helping in the costume department. I’m very proud to have been apart of the production as it’s won 26 awards, and also gained me an IMDB credit in the makeup department."
+      "description": "I have worked as trainee on an award winning tv show “psyched” assisting on many tasks, such as hairstyling, tv makeup, sfx, even helping in the costume department. I’m very proud to have been apart of the production as it's won 26 awards, and also gained me an IMDB credit in the makeup department."
     },
     {
       "name": "SFX",
@@ -117,6 +127,10 @@
     },
     {
       "name": "Corporate",
+      "description": ""
+    },
+    {
+      "name": "Publications",
       "description": ""
     }
   ]
