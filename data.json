@@ -99,12 +99,12 @@
     {
       "id": 20,
       "image": "https://i.postimg.cc/zBFj0DWq/publication-1.jpg",
-      "catagory": "publications"
+      "catagory": "editorial"
     },
     {
       "id": 21,
       "image": "https://i.postimg.cc/Hkb7QZbg/editorial-11.jpg",
-      "catagory": "editorial"
+      "catagory": "publications"
     }
   ],
 
